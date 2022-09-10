@@ -1,11 +1,14 @@
 package leetCode75.other
 
+import scala.annotation.tailrec
+
 object TwoSums extends App {
 
   def twoSum(nums: Array[Int], target: Int): Array[Int] = {
     findIt(nums, target)
   }
 
+  @tailrec
   def findIt(nums: Array[Int], target: Int, index1: Int = 0, index2: Int = 1): Array[Int] = {
     val el1 = nums(index1)
     val el2 = nums(index2)

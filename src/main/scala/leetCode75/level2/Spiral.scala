@@ -1,4 +1,4 @@
-package leetCode75
+package leetCode75.level2
 
 import scala.annotation.tailrec
 
@@ -208,4 +208,3 @@ object Spiral {
 
 
 }
-

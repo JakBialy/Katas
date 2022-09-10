@@ -1,4 +1,4 @@
-package leetCode75
+package leetCode75.level2
 
 import scala.annotation.tailrec
 
@@ -38,5 +38,3 @@ object HappyNumber extends App {
 
   println(isHappyTailrecWithCycleDetection(116))
 }
-
-// https://leetcode.com/problems/happy-number/
