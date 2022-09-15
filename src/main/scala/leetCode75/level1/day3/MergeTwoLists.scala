@@ -54,10 +54,10 @@ class ListNode(_x: Int = 0, _next: ListNode = null) {
   var next: ListNode = _next
   var x: Int = _x
 
-  override def toString: String = s"$x${untilNull(next)}"
+//  override def toString: String = s"$x${untilNull(next)}"
 
-  def untilNull(x: ListNode, acc: String = ""): String = {
-    if (x == null) acc
-    else untilNull(x.next, acc + s",${x.x}")
-  }
+//  def untilNull(x: ListNode, acc: String = ""): String = {
+//    if (x == null) acc
+//    else untilNull(x.next, acc + s",${x.x}")
+//  }
 }
