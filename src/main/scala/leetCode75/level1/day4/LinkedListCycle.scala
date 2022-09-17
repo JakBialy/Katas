@@ -3,6 +3,7 @@ package leetCode75.level1.day4
 import leetCode75.level1.day3.ListNode
 
 import scala.annotation.tailrec
+import scala.collection.immutable.HashSet
 
 object LinkedListCycle extends App {
 
@@ -40,6 +41,9 @@ object LinkedListCycle extends App {
 
     rec(head, head.next.next)
   }
+
+//  hash set approach
+//  flag approach
 
   val headNode = new ListNode(1, null)
   val next = new ListNode(2, headNode)
